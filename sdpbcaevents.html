@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+</head>
+<body>
+    <h1>Welcome to Event Registration</h1>
+    <p>Please select the event type you'd like to register for:</p>
+
+    <button onclick="redirectToCulturalForm()">Cultural Events</button>
+    <button onclick="redirectToSportsForm()">Sports Events</button>
+
+    <script>
+        function redirectToCulturalForm() {
+            window.location.href = "https://docs.google.com/forms/d/1IHE64cTsoF006G4pSotczK9czlBNvLLEX38N6yFCVd4/edit?ts=64f9c46f";
+        }
+
+        function redirectToSportsForm() {
+            window.location.href = "https://docs.google.com/forms/d/1IOwk61BbQPs2yvKZVXXUlQfu2kyzpkqAdHAGnLEpxQ4/edit?ts=64f99aef";
+        }
+    </script>
+</body>
+</html>
